@@ -25,9 +25,11 @@ Kiro is my personal choice:
 ## Kiro repo
 
 
+```
 [kiro_repo]
 SigLevel = Never
 Server = https://kirodubes.github.io/$repo/$arch
+```
 
 
 ## Requirements
