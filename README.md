@@ -12,7 +12,7 @@ Kiro is my personal choice:
 - xfce4 and chadwm
 - a lot of free software
 
-## 🚀 Features
+## Features
 
 - Fully customizable build process
 - Based on official Arch Linux tools and methodology
@@ -21,7 +21,14 @@ Kiro is my personal choice:
 - Modular structure for easy extension
 - Lightweight and minimal by default
 
-## 📦 Requirements
+
+## Kiro repo
+
+[kiro_repo]
+SigLevel = Never
+Server = https://kirodubes.github.io/$repo/$arch
+
+## Requirements
 
 - Arch Linux or Arch-based system (for building) - access to necessary repos (keys - mirrors)
 - `archiso` package
@@ -38,3 +45,9 @@ Follow this tuturial and you are already half way there.
 https://youtu.be/3jdKH6bLgUE 
 
 Live long and prosper
+
+# Major changes after the videos on youtube
+
+Make sure you read the major change at the bottom of the readme file on 
+
+https://github.com/kirodubes/kiro-iso
