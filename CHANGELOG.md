@@ -1,5 +1,16 @@
 # CHANGELOG — kiro_repo
 
+## 2026.05.21
+
+### What Changed
+- Added the four other required markdown scaffold files (created stubs for whichever of `IDEAS.md` / `TODO.md` / `CLAUDE.md` were missing) per the new ecosystem MD-scaffold rule codified in [Kiro-HQ/CLAUDE.md](/home/erik/Insync/Kiro/Kiro-HQ/CLAUDE.md#required-markdown-scaffold-every-repo). README was already substantial; left untouched.
+
+### Files Modified
+- CHANGELOG.md
+- IDEAS.md (created where missing)
+- TODO.md (created where missing)
+- CLAUDE.md (created where missing)
+
 > Binary package repository served to the ISO at build/install time.
 > Most commits are binary DB updates — tracked here by package version milestones.
 
