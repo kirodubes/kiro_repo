@@ -1,5 +1,25 @@
 # CHANGELOG — kiro_repo
 
+## 2026.05.24
+
+### What Changed
+- Added a proper GitHub Pages landing page (`index.html`) to replace the default Jekyll-rendered README at https://kirodubes.github.io/kiro_repo/. Ported the theme from its sibling [nemesis_repo](/home/erik/EDU/nemesis_repo/) so the two repo sites match.
+- Page matches the kiro-website design: dark slate-950 surface, sky accent with the visitor-switchable 5-colour palette, shared Kiro branding/favicons, hero, copy-to-clipboard install steps, a package overview grid, and a YouTube walkthrough embed.
+
+### Technical Details
+- Self-contained design (no Tailwind build step) so the CSS can be committed and served straight from the Pages repo. Hand-written `css/style.css` reproduces the kiro design tokens with semantic class names; no Node tooling pulled into the pacman package repo.
+- Accent switcher and copy-button JS mirror kiro-website (localStorage key `kiro-accent`, default accent `sky`); palette tokens are CSS variables `--accent-200..500`.
+- Content adapted to what kiro_repo actually is — the **installer-only** repo feeding the Kiro ISO (Calamares + kiro-calamares-config, each on stable + `next` channels). The "Add the repo" section frames it as opt-in (not enabled post-install by design); GitHub/Pages URLs point at the `kirodubes` org; video embed is the Kiro ISO-build tutorial (`3jdKH6bLgUE`). Dropped the nemesis `bit.ly` one-liner (no kiro equivalent).
+- Added `.nojekyll` so `assets/` and the `x86_64/` package files are served verbatim. "Browse packages" links point at the GitHub file tree because Pages does not generate directory listings.
+- Copied shared branding (`logo.png` + favicons) from kiro-website into `assets/branding/`.
+
+### Files Modified
+- index.html (created)
+- css/style.css (created)
+- .nojekyll (created)
+- assets/branding/* (logo + favicons, copied from kiro-website)
+- CHANGELOG.md (updated)
+
 ## 2026.05.21
 
 ### What Changed
