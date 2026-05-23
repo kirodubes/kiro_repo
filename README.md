@@ -1,6 +1,8 @@
 # kiro_repo
 
-![Kiro Logo](kiro.jpg)
+<p align="center">
+  <img src="kiro.jpg" alt="Kiro" width="220" />
+</p>
 
 **Kiro** is a customizable Arch Linux ISO builder based on the ArcoLinux project. It provides a simple way to build your own Arch-based installation medium with your choice of packages, settings, and scripts.
 
