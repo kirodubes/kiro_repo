@@ -10,6 +10,7 @@
 - Fixed the footer website link in `index.html` from `erikdubois.be` to `https://kiroproject.be` (the project's site).
 - Added a Screenshots section to the Pages site (`index.html`) showing the same `.webp` images, with a matching nav link and a `.shot-grid` / `.shot` block in `css/style.css` reusing the existing slate/accent tokens (mirrors the `.pkg-card` styling).
 - Added the two Calamares screenshots (`kiro-calamares-start` / `-end`) and placed them first in both galleries (README + `index.html`) — fitting, since this repo *is* the Calamares installer. Gallery is now eight images.
+- Fixed the Pages site video embed: it was pointing at the nemesis walkthrough (`ocKZIzAb7GQ`); switched to the Kiro ISO-build tutorial (`3jdKH6bLgUE`), matching the README.
 
 ### Technical Details
 - Self-contained design (no Tailwind build step) so the CSS can be committed and served straight from the Pages repo. Hand-written `css/style.css` reproduces the kiro design tokens with semantic class names; no Node tooling pulled into the pacman package repo.
