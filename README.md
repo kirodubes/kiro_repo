@@ -38,6 +38,16 @@ each shipped on two channels (stable + testing):
 <table>
   <tr>
     <td align="center">
+      <img src="assets/pictures/kiro-calamares-start.webp" alt="Calamares installer start" width="400" /><br />
+      <sub>Calamares installer — start</sub>
+    </td>
+    <td align="center">
+      <img src="assets/pictures/kiro-calamares-end.webp" alt="Calamares installer finished" width="400" /><br />
+      <sub>Calamares installer — finish</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
       <img src="assets/pictures/desktop-ohmychadwm.webp" alt="ohmychadwm desktop" width="400" /><br />
       <sub>ohmychadwm desktop</sub>
     </td>
