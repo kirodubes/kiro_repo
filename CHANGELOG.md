@@ -5,6 +5,8 @@
 ### What Changed
 - Added a proper GitHub Pages landing page (`index.html`) to replace the default Jekyll-rendered README at https://kirodubes.github.io/kiro_repo/. Ported the theme from its sibling [nemesis_repo](/home/erik/EDU/nemesis_repo/) so the two repo sites match.
 - Page matches the kiro-website design: dark slate-950 surface, sky accent with the visitor-switchable 5-colour palette, shared Kiro branding/favicons, hero, copy-to-clipboard install steps, a package overview grid, and a YouTube walkthrough embed.
+- Rewrote `README.md` to match the repo's real identity (now consistent with `index.html`): the installer-only repo behind the Kiro ISO. Replaced the stale "Kiro is an ISO builder" opening + ISO-build requirements with a what-it-is intro, a "What's inside" list of the four real packages, and a note distinguishing it from `nemesis_repo` (post-install extras). Kept the Kiro videos (`3jdKH6bLgUE` + playlist) and the kiro-iso "major changes" link.
+- Added a Screenshots gallery to the README using the new images, and moved them into `assets/pictures/`; removed the old top-level `kiro-chadwm.jpg` / `kiro-xfce.jpg`.
 
 ### Technical Details
 - Self-contained design (no Tailwind build step) so the CSS can be committed and served straight from the Pages repo. Hand-written `css/style.css` reproduces the kiro design tokens with semantic class names; no Node tooling pulled into the pacman package repo.
@@ -18,6 +20,9 @@
 - css/style.css (created)
 - .nojekyll (created)
 - assets/branding/* (logo + favicons, copied from kiro-website)
+- README.md (rewritten + screenshots gallery)
+- assets/pictures/* (6 screenshots, new)
+- kiro-chadwm.jpg, kiro-xfce.jpg (removed)
 - CHANGELOG.md (updated)
 
 ## 2026.05.21
