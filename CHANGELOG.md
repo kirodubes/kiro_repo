@@ -6,7 +6,9 @@
 - Added a proper GitHub Pages landing page (`index.html`) to replace the default Jekyll-rendered README at https://kirodubes.github.io/kiro_repo/. Ported the theme from its sibling [nemesis_repo](/home/erik/EDU/nemesis_repo/) so the two repo sites match.
 - Page matches the kiro-website design: dark slate-950 surface, sky accent with the visitor-switchable 5-colour palette, shared Kiro branding/favicons, hero, copy-to-clipboard install steps, a package overview grid, and a YouTube walkthrough embed.
 - Rewrote `README.md` to match the repo's real identity (now consistent with `index.html`): the installer-only repo behind the Kiro ISO. Replaced the stale "Kiro is an ISO builder" opening + ISO-build requirements with a what-it-is intro, a "What's inside" list of the four real packages, and a note distinguishing it from `nemesis_repo` (post-install extras). Kept the Kiro videos (`3jdKH6bLgUE` + playlist) and the kiro-iso "major changes" link.
-- Added a Screenshots gallery to the README using the new images, and moved them into `assets/pictures/`; removed the old top-level `kiro-chadwm.jpg` / `kiro-xfce.jpg`.
+- Added a Screenshots gallery to the README (table layout matching nemesis_repo) using the new `.webp` images, and moved them into `assets/pictures/`; removed the old top-level `kiro-chadwm.jpg` / `kiro-xfce.jpg`. Added Websites/Social Media sections.
+- Fixed the footer website link in `index.html` from `erikdubois.be` to `https://kiroproject.be` (the project's site).
+- Added a Screenshots section to the Pages site (`index.html`) showing the same six `.webp` images, with a matching nav link and a `.shot-grid` / `.shot` block in `css/style.css` reusing the existing slate/accent tokens (mirrors the `.pkg-card` styling).
 
 ### Technical Details
 - Self-contained design (no Tailwind build step) so the CSS can be committed and served straight from the Pages repo. Hand-written `css/style.css` reproduces the kiro design tokens with semantic class names; no Node tooling pulled into the pacman package repo.
@@ -20,8 +22,10 @@
 - css/style.css (created)
 - .nojekyll (created)
 - assets/branding/* (logo + favicons, copied from kiro-website)
-- README.md (rewritten + screenshots gallery)
-- assets/pictures/* (6 screenshots, new)
+- README.md (rewritten + screenshots gallery + Websites/Social Media)
+- index.html (footer website link → kiroproject.be; new Screenshots section + nav link)
+- css/style.css (.shot-grid / .shot gallery styles)
+- assets/pictures/* (6 .webp screenshots, new)
 - kiro-chadwm.jpg, kiro-xfce.jpg (removed)
 - CHANGELOG.md (updated)
 
