@@ -2,6 +2,19 @@
 
 ## 2026.05.24
 
+### Shared-asset propagation + Patreon + wrap fixes (later session)
+- Normalised the web assets to the canonical kiro-website set via the new HQ
+  `propagate-assets.sh`: renamed `assets/pictures/` → `assets/screenshots/`
+  (SEO-consistent), repointed the 8 `index.html` + 8 `README.md` image refs, and
+  added `assets/branding/youtube-banner.png`.
+- Added a **Patreon** support pill (https://www.patreon.com/c/kiroproject) with
+  coral `.pill-patreon` styling to `index.html`.
+- Fixed the README screenshot paths that broke when the folder was renamed.
+- Added `white-space:nowrap` to `.pill` (Ko-fi label) and `.nav a` ("Add the
+  repo") so labels and nav items no longer wrap to two lines.
+- Left the `Server = https://kirodubes.github.io/$repo/$arch` line untouched —
+  it's correct pacman config (the 404 is browser-only on the bare directory).
+
 ### What Changed
 - Added a proper GitHub Pages landing page (`index.html`) to replace the default Jekyll-rendered README at https://kirodubes.github.io/kiro_repo/. Ported the theme from its sibling [nemesis_repo](/home/erik/EDU/nemesis_repo/) so the two repo sites match.
 - Page matches the kiro-website design: dark slate-950 surface, sky accent with the visitor-switchable 5-colour palette, shared Kiro branding/favicons, hero, copy-to-clipboard install steps, a package overview grid, and a YouTube walkthrough embed.
