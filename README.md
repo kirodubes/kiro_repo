@@ -38,41 +38,41 @@ each shipped on two channels (stable + testing):
 <table>
   <tr>
     <td align="center">
-      <img src="assets/pictures/kiro-calamares-start.webp" alt="Calamares installer start" width="400" /><br />
+      <img src="assets/screenshots/kiro-calamares-start.webp" alt="Calamares installer start" width="400" /><br />
       <sub>Calamares installer — start</sub>
     </td>
     <td align="center">
-      <img src="assets/pictures/kiro-calamares-end.webp" alt="Calamares installer finished" width="400" /><br />
+      <img src="assets/screenshots/kiro-calamares-end.webp" alt="Calamares installer finished" width="400" /><br />
       <sub>Calamares installer — finish</sub>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="assets/pictures/desktop-ohmychadwm.webp" alt="ohmychadwm desktop" width="400" /><br />
+      <img src="assets/screenshots/desktop-ohmychadwm.webp" alt="ohmychadwm desktop" width="400" /><br />
       <sub>ohmychadwm desktop</sub>
     </td>
     <td align="center">
-      <img src="assets/pictures/desktop-xfce.webp" alt="XFCE desktop" width="400" /><br />
+      <img src="assets/screenshots/desktop-xfce.webp" alt="XFCE desktop" width="400" /><br />
       <sub>XFCE desktop</sub>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="assets/pictures/att.webp" alt="Arch Linux Tweak Tool" width="400" /><br />
+      <img src="assets/screenshots/att.webp" alt="Arch Linux Tweak Tool" width="400" /><br />
       <sub>Arch Linux Tweak Tool</sub>
     </td>
     <td align="center">
-      <img src="assets/pictures/alacritty-tweak-tool.webp" alt="Alacritty tweak tool" width="400" /><br />
+      <img src="assets/screenshots/alacritty-tweak-tool.webp" alt="Alacritty tweak tool" width="400" /><br />
       <sub>Alacritty tweak tool</sub>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="assets/pictures/archlinux-betterlockscreen.webp" alt="Betterlockscreen" width="400" /><br />
+      <img src="assets/screenshots/archlinux-betterlockscreen.webp" alt="Betterlockscreen" width="400" /><br />
       <sub>Betterlockscreen</sub>
     </td>
     <td align="center">
-      <img src="assets/pictures/archlinux-logout.webp" alt="Logout screen" width="400" /><br />
+      <img src="assets/screenshots/archlinux-logout.webp" alt="Logout screen" width="400" /><br />
       <sub>Logout screen</sub>
     </td>
   </tr>
