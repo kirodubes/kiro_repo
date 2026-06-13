@@ -1,5 +1,30 @@
 # CHANGELOG — kiro_repo
 
+## 2026.06.13
+
+### What Changed
+- `repo.sh` now **PGP-signs every package** before building the database, mirroring
+  the Phase A change in `nemesis_repo`. kiro_repo is served over GitHub Pages
+  (`kirodubes.github.io`) at `SigLevel = Never` and ships the installer/calamares
+  stack to both the live ISO and installed systems, so it carried the same
+  GitHub-account/Pages/CDN-tampering exposure as nemesis. SigLevel stays `Never`
+  for now — sigs present but ignored, zero risk.
+
+### Technical Details
+- Same detach-sign loop as nemesis: scoped to the Kiro signing subkey
+  (`gpg --detach-sign -u 33B761B0EE5AD4FD`), signs only missing/stale `.sig`,
+  fail-loud, orphan-sig cleanup after `repo-add -R`. `repo-add` stays without `-s`
+  (packages-only → `Required DatabaseOptional` later).
+- The **same `kiro-keyring`** trusts the one Kiro key, so it covers this repo too —
+  no separate keyring. First run: 6/6 packages signed (the calamares + config +
+  tweak-tool stack and their `-next`/`-nemesis` betas).
+- Future `Required` flip must cover **both** pacman.conf locations — the live ISO
+  `archiso/pacman.conf` and the calamares-appended installed entry — or it breaks
+  the installer, not just `-Syu`.
+
+### Files Modified
+- `repo.sh`
+
 ## 2026.05.29
 
 ### Adopted the canonical shared web design system
