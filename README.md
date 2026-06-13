@@ -21,9 +21,12 @@ Append this to your `/etc/pacman.conf`, then run `sudo pacman -Syyu`:
 
 ```
 [kiro_repo]
-SigLevel = Never
 Server = https://kirodubes.github.io/$repo/$arch
 ```
+
+> `kiro_repo` is PGP-signed by the Kiro key (trusted via `kiro-keyring`); it
+> inherits your global `SigLevel`. Adding it by hand before the keyring is present?
+> Use `SigLevel = Optional` for the repo until then.
 
 ## What's inside
 
