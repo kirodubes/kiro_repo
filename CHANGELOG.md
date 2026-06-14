@@ -1,5 +1,26 @@
 # CHANGELOG — kiro_repo
 
+## 2026.06.14
+
+### What Changed
+- Synced the website (`index.html`) and `README.md` package lists to what the repo
+  actually serves. The DB ships **6 packages**, but both surfaces only listed **4** —
+  the `kiro-calamares-tweak-tool` stack (stable + `-nemesis` testing build) was missing.
+  Added both so the public "What's inside" matches the served database.
+
+### Technical Details
+- `index.html` Packages grid: added two `.pkg-card`s — `kiro-calamares-tweak-tool`
+  and `kiro-calamares-tweak-tool-nemesis` (the latter with a `nemesis channel` count
+  badge, mirroring the `next channel` badges). Updated the section lead to name three
+  components and the `next` / `nemesis` testing channels.
+- `README.md` "What's inside": added the tweak-tool line. Description taken from the
+  package `pkgdesc` — dev/expert PySide6/QML tool to preset Calamares encryption +
+  bootloader, installer-only.
+
+### Files Modified
+- `index.html`
+- `README.md`
+
 ## 2026.06.13
 
 ### What Changed

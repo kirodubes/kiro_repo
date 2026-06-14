@@ -30,11 +30,12 @@ Server = https://kirodubes.github.io/$repo/$arch
 
 ## What's inside
 
-A focused set — the Calamares installer plus Kiro's Calamares configuration,
-each shipped on two channels (stable + testing):
+A focused set — the Calamares installer, Kiro's Calamares configuration, and
+the Calamares Tweak Tool, each shipped on a stable and a testing channel:
 
 - **calamares** / **calamares-next** — the GUI installer that drives the Kiro ISO's graphical install.
 - **kiro-calamares-config** / **kiro-calamares-config-next** — Kiro's installer configuration.
+- **kiro-calamares-tweak-tool** / **kiro-calamares-tweak-tool-nemesis** — a dev/expert tool (PySide6/QML) to preset Calamares' encryption and bootloader before an install; installer-only, not left on the system afterwards.
 
 ## Screenshots
 
