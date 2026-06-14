@@ -7,6 +7,11 @@
   actually serves. The DB ships **6 packages**, but both surfaces only listed **4** —
   the `kiro-calamares-tweak-tool` stack (stable + `-nemesis` testing build) was missing.
   Added both so the public "What's inside" matches the served database.
+- Removed the "Add the repository" section from `README.md`. kiro_repo is
+  installer-only by design (not added to `/etc/pacman.conf` after a normal install),
+  so publishing a copy-paste `Server =` opt-in stanza contradicted that and invited
+  users to wire in an installer-only repo. Also dropped the now-dangling "you can
+  still opt in on any Arch system" sentence from the intro Note.
 
 ### Technical Details
 - `index.html` Packages grid: added two `.pkg-card`s — `kiro-calamares-tweak-tool`
@@ -20,6 +25,7 @@
 ### Files Modified
 - `index.html`
 - `README.md`
+- `CHANGELOG.md`
 
 ## 2026.06.13
 

@@ -12,21 +12,7 @@ in at build and install time.
 > **Note** — this repo is *installer-only by design*. After a normal Kiro
 > install it is **not** added to your `/etc/pacman.conf`. (Looking for the
 > extras you add *after* install, like Spotify? That's the separate
-> `nemesis_repo`.) You can still opt in on any Arch system if you want it on a
-> running machine.
-
-## Add the repository
-
-Append this to your `/etc/pacman.conf`, then run `sudo pacman -Syyu`:
-
-```
-[kiro_repo]
-Server = https://kirodubes.github.io/$repo/$arch
-```
-
-> `kiro_repo` is PGP-signed by the Kiro key (trusted via `kiro-keyring`); it
-> inherits your global `SigLevel`. Adding it by hand before the keyring is present?
-> Use `SigLevel = Optional` for the repo until then.
+> `nemesis_repo`.)
 
 ## What's inside
 
