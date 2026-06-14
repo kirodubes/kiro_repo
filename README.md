@@ -76,7 +76,7 @@ https://www.youtube.com/watch?v=3jdKH6bLgUE&list=PLlloYVGq5pS71UubmlKjjw131PjixM
 
 The build tutorial — follow it and you are already half way there:
 
-https://youtu.be/3jdKH6bLgUE
+https://youtu.be/Ciqao_oWvM0
 
 Live long and prosper.
 

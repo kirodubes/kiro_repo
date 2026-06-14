@@ -16,6 +16,8 @@
   section and every reference to it (nav link, hero "Add to pacman.conf" CTA, the
   hero opt-in sentence, and the meta-description opt-in claim). Replaced the embedded
   video — the BUILDRA build tutorial (`3jdKH6bLgUE`) swapped for `Ciqao_oWvM0`.
+  Same build-tutorial link updated in `README.md` (the all-videos playlist link
+  left as-is).
 
 ### Technical Details
 - `index.html` Packages grid: added two `.pkg-card`s — `kiro-calamares-tweak-tool`
