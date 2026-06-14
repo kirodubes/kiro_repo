@@ -12,6 +12,10 @@
   so publishing a copy-paste `Server =` opt-in stanza contradicted that and invited
   users to wire in an installer-only repo. Also dropped the now-dangling "you can
   still opt in on any Arch system" sentence from the intro Note.
+- Did the same on the website (`index.html`): removed the whole "Add the repo"
+  section and every reference to it (nav link, hero "Add to pacman.conf" CTA, the
+  hero opt-in sentence, and the meta-description opt-in claim). Replaced the embedded
+  video — the BUILDRA build tutorial (`3jdKH6bLgUE`) swapped for `Ciqao_oWvM0`.
 
 ### Technical Details
 - `index.html` Packages grid: added two `.pkg-card`s — `kiro-calamares-tweak-tool`
@@ -26,6 +30,12 @@
 - `index.html`
 - `README.md`
 - `CHANGELOG.md`
+
+### Technical Details (website add-block removal)
+- Removed nav `<a href="#add">`, the hero `.btn-primary` "Add to pacman.conf"
+  button (promoted "Browse on GitHub" to primary), the `<section id="add">` block
+  (Server stanza + refresh + signing note), and trimmed the hero lead + meta
+  description so nothing dangles to the removed anchor.
 
 ## 2026.06.13
 
